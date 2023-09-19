@@ -1,0 +1,22 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-style: solid;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+    border-style: solid;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+#sin{
+    background-color: white;
+}  
+#con{
+    background-color: #dddddd;
+}

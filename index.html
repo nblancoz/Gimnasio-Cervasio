@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="gatitos.html">Gatitos</a>
+    </nav>
+    <br>
+    <table>
+        <tr>
+            <th id="invoice" colspan="3">Invoice #123456789</th>
+            <th id="january">14 January 2025</th>
+            </tr>
+        <tr>
+        <td colspan="2">
+            <strong>Pay to:</strong>
+            <address>Acme Billing Co. <br>
+            123 Main St. <br>
+            Cityville, NA 12345
+            </address>
+        </td>
+        <td colspan="2">
+            <strong>Customer:</strong>
+            <address>John Smith <br>
+            321 Willow Way <br>
+            Southeast Northwesternshire, MA 54321
+            </address>
+        </td>
+        <tr>
+            <td><b>Name / Description</b></td>
+            <td><b>Qty.</b></td>
+            <td>@</td>
+            <td><b>Cost</b></td>
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>1000</td>
+            <td>0.01</td>
+            <td>10.00</td>
+        </tr>
+        <tr id="sin">
+            <td>Staples (box)</td>
+            <td>100</td>
+            <td>1.00</td>
+            <td>100.00</td>
+        </tr>
+        <tr>
+            <td colspan="3" id="con"><b>Subtotal</b></td>
+            <td>110.00</td>
+        </tr>
+        <tr>
+            <td colspan="2"><b>Tax</b></td>
+            <td id="sin">8%</td>
+            <td id="sin">8.80</td>
+        </tr>
+        <tr>
+            <td colspan="3" id="con"><b>Grand Total</b></td>
+            <td>$118.80</td>
+        </tr>
+    </table>
+</body>
+</html>
